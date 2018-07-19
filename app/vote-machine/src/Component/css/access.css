@@ -1,0 +1,15 @@
+.ac_head{
+    padding:20px;
+    font-family: "Lato",sans-serif;
+    font-weight: 300;
+    color: #fff;
+    display: block;
+    float: none;
+    clear: both;
+}
+.ac_main{
+    margin:20px;
+    background:#eee;
+    color:#000;
+    padding: 20px;
+}

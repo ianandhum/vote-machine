@@ -1,0 +1,87 @@
+.cont_box{
+    background:rgba(80, 77, 77, 0.199);
+    padding: 0px;
+    min-height: 500px;
+}
+.left-drawer{
+    min-height: 500px;
+    padding:0px;
+    background:rgba(94, 94, 94, 0.288);
+    color: #fff;
+}
+.right-drawer{
+    background:transparent;
+    overflow-y: scroll;
+    height: 500px;
+    padding: 20px;
+}
+.user-card{
+    height: 260px;
+    float: left;
+    width:23%;
+    margin: 20px 5.1%;
+    background:rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.288);
+    transition: all 300ms ease 0s;
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.user-card:hover .foot{
+    background: rgb(37, 193, 255);
+    
+    
+}
+.user-card:hover{
+    transform: scale(1.1)
+}
+.user-card .cont{
+    height: 180px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center top;
+}
+
+.user-card .foot{
+    height: 80px;
+    padding: 10px;
+    background:#eee;
+    
+}
+.user-card .foot .nm{
+    color:rgb(0, 0, 0);
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.user-card .foot .nm span{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding:0 20px 0 10px;
+}
+
+.nC_content{
+    margin: 50px 0;
+    min-height: 200px;
+    background:rgba(1,1,1,.3);
+    margin-left:16.665%;
+    padding:30px ;
+}
+.nC_content .h{
+    text-align: center;
+    margin:0px 0 40px;
+}
+
+input[type="file"]{
+    height: auto;
+}
+input[type="text"],select,input[type="file"]{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 0px !important;
+}

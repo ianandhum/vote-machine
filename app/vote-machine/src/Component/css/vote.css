@@ -1,0 +1,190 @@
+.cont_box.voteres{
+    background:linear-gradient(to bottom,rgba(54, 58, 57, 0.459),rgba(35, 52, 53, 0.418));
+    padding: 0px;
+    min-height: 500px;
+}
+.btn_main{
+    width: 22%;
+    margin:10px 1.4% 30px;
+    border-width: 0px;
+    border-radius: 0px;
+    padding: 10px;
+    background:rgba(0, 0, 0, 0.267);
+}
+.btn_main:hover{
+    
+    background:rgba(255, 255, 255, 0.966);
+    color: rgb(0, 0, 0);
+}
+
+.head_box{
+    background:rgba(68, 68, 68, 0.486);
+}
+.head_box h3{
+    margin: 0;
+    color:rgb(255, 255, 255);
+    padding:20px 1.4%;
+}
+.panel_res{
+    margin:20px 50px;
+    color: #000 !important;
+    
+}
+
+.panel_res h2{
+    color:#000;
+}
+.title_text{
+    font-family: "IBM Plex Sans Condensed",sans-serif;
+    font-size: 1.2em;
+}
+.u_card{
+    height: 500px;
+    float: left;
+    width:23%;
+    margin: 20px 5.1%;
+    background:rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.288);
+    transition: all 300ms ease 0s;
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+    overflow: visible;
+}
+.u_card.small{
+    height:180px;
+    margin:20px 5.1%;
+    width:160px;
+}
+.u_card.big{
+    width:96%;
+    margin:30px 2% 0px;
+}
+.u_card.big .cont{
+    height: 400px;
+}
+.u_card.big .rank{
+    display: none;
+}
+.u_card.big .foot .vt{
+    background:#f44;
+    color:#fff;
+    font-size: 4em;
+    border-bottom-left-radius: 8px;
+}
+.u_card.big .foot .nm{
+    word-wrap:break-word;
+    padding:15px 5px 0px;
+    font-size: 2em;
+    color:#fff;
+}
+.u_card.big .foot{
+    background: rgb(61, 113, 255);
+    height: 100px;
+    
+}
+.u_card.small .cont{
+    height:130px;
+}
+.u_card:hover .foot{
+    background: rgb(37, 193, 255);
+    
+    
+}
+.u_card:hover{
+    transform: scale(1.05)
+}
+.u_card .rank{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background:#f44;
+    color:#fff;
+    font-size:1.4em;
+    padding: 7px 13px;
+    position: absolute;
+    top:-10px;
+    right: -10px;
+    z-index:5;
+}
+
+.u_card .cont{
+    height: 160px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.u_card .foot{
+    height: 50px;
+    background:#eee;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+}
+.u_card .foot .nm{
+    color:#000000;
+    font-size: 1em;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    width: 66.66%;
+    display:block;
+    height: 100%;
+    text-transform: capitalize;
+}
+
+.u_card .foot .vt{
+    font-size: 2em;
+    width: 33.33%;
+    height: 100%;
+    padding: 5px 3px;
+    color:#000;
+    text-align: center;
+    background:rgba(0, 0, 0, 0.123);
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+.chart_box{
+    background:#fff;
+    margin: 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    padding:30px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: "IBM Plex Sans Condensed",sans-serif;
+
+}
+
+.chartLoad-enter {
+    transform: scale(0.4);
+    filter:blur(45px)
+}
+  
+  .chartLoad-enter.chartLoad-enter-active {
+    transform: scale(1);
+    filter: blur(0px);
+    transition: all 500ms ease-in;
+  }
+  
+  .chartLoad-leave {
+    display: none;
+  }
+.head_h{
+    text-align: center;
+    margin:52px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.head_h span{
+    background:#f44;
+    color:#fff;
+    font-size: 0.9em;
+    padding: 4px;
+    font-weight: lighter;
+}
